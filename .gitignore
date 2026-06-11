@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+.venv/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.pyre/
+.mypy_cache/
+.pytype/
+profile_default/
+.ipynb_checkpoints/
+.python-version
+
+# SQLite
+*.sqlite3
+*.db
+*.db-journal
+
+# PostgreSQL
+*.psql_history
+
+# FastAPI / Uvicorn
+__pycache__/
+
+# Node
+node_modules/
+.npm/
+.npmrc
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+.next/
+out/
+build/
+.DS_Store
+
+# VS Code
+.vscode/
+.history/
+
+# Docker
+docker-compose.override.yml
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Local config
+.env.local
+.env.*.local
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python bytecode
+*.pyc
+
+# Temporary files
+*.swp
+*~
+
+# Ignore generated frontend build output
+/frontend/.next/
+/frontend/node_modules/
+/backend/.venv/
