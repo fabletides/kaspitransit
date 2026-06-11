@@ -1,4 +1,4 @@
-# KaspiTransit — Digital Logistics Control Center
+# Keruen — Digital Logistics Control Center
 
 **Real-time digital twin of Mangystau Region logistics and transit infrastructure.**
 
