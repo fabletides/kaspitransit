@@ -60,6 +60,7 @@ yarn-error.log*
 lerna-debug.log*
 
 # Local config
+.env
 .env.local
 .env.*.local
 

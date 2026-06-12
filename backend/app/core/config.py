@@ -20,6 +20,7 @@ class Settings(BaseSettings):
     
     # Development mode: bypass auth for testing
     DEMO_MODE: bool = os.getenv("DEMO_MODE", "true").lower() == "true"
+    SEED_ON_STARTUP: bool = os.getenv("SEED_ON_STARTUP", "false").lower() == "true"
 
     class Config:
         env_file = ".env"

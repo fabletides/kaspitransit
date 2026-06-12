@@ -45,7 +45,8 @@ from app.db.seed import seed_database
 
 @app.on_event("startup")
 def startup_event():
-    seed_database()
+    if settings.SEED_ON_STARTUP:
+        seed_database()
 
 @app.get("/health")
 def health():
